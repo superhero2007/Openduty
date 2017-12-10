@@ -1,0 +1,19 @@
+.cards-list {
+  .custom-select {
+    background: #fff;
+  }
+  .selected-card {
+    box-shadow: 0 0 1px 1px;
+    padding: 10px 50px 10px 12px;
+    position: relative;
+    margin: 0 12px 6px 0;
+    line-height: 18px;
+    white-space: nowrap;
+    display: inline-block;
+    .btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

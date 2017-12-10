@@ -1,0 +1,15 @@
+.sortable-list {
+  .col:first-child {
+    flex-grow: 0;
+  }
+  .sortable-list-header {
+
+  }
+  .sort-field-selector {
+    cursor: pointer;
+    color: #3b5998;
+  }
+  .sort-field-selector:hover {
+    text-decoration: underline;
+  }
+}

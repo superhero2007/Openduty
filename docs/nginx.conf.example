@@ -1,0 +1,28 @@
+user nobody;
+worker_processes  1;
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile        on;
+    keepalive_timeout  65;
+
+    gzip  on;
+
+    server {
+        listen 80;
+        location / {
+            root /Volumes/Data/Project/Dev/openduty/client/public;
+            try_files $uri $uri/ /index.html;
+            
+        }
+        location /api {
+            proxy_pass   http://127.0.0.1:3001;
+        }
+    }
+}

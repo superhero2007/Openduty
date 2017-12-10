@@ -1,0 +1,36 @@
+{
+  "name": "openduty-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "jshint": "^2.9.5",
+    "nodemon": "^1.12.1",
+    "rewire": "^2.5.2",
+    "sinon": "^4.0.0",
+    "sinon-stub-promise": "^4.0.0",
+    "swagger-jsdoc": "^1.9.7",
+    "unit.js": "^2.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+.users-list {
+  .users-list-header {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .row {
+    .col {
+      line-height: 3;
+    }
+  }
+  .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+  }
+}
